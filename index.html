@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Apptikar — Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Apptikar builds and publishes simple, privacy‑respecting mobile apps.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Apptikar — Coming Soon">
+  <meta property="og:description" content="Independent studio building and publishing mobile apps.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root { --fg:#0f172a; --bg:#f8fafc; --muted:#475569; --card:#ffffff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg:#e5e7eb; --bg:#0b1020; --muted:#94a3b8; --card:#0f152a; }
+    }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--fg);background:radial-gradient(60vw 60vh at 50% -10%, #33415522, transparent),var(--bg);}
+    .wrap{min-height:100dvh;display:grid;place-items:center;padding:40px}
+    .card{max-width:720px;width:100%;background:var(--card);border:1px solid #e2e8f0;
+          border-radius:20px;padding:32px;box-shadow:0 10px 30px rgba(2,6,23,.08)}
+    h1{margin:0 0 12px;font-size:clamp(28px,4vw,40px)}
+    p{margin:0 0 18px;line-height:1.6;color:var(--muted)}
+    .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid #cbd5e1;background:#fff;
+         text-decoration:none;color:var(--fg);font-weight:600}
+    .btn[aria-disabled="true"]{opacity:.65;pointer-events:none}
+    .btn:hover{transform:translateY(-1px)}
+    .links{margin-top:18px;font-size:14px}
+    .links a{color:inherit;opacity:.85}
+    .logo{font-weight:800;letter-spacing:.4px}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div class="logo">Apptikar</div>
+      <h1>We build and publish mobile apps.</h1>
+      <p>Independent, privacy‑first, and focused on simple experiences that just work.</p>
+
+      <div class="row">
+        <a class="btn" href="#" aria-disabled="true">View our apps (soon)</a>
+        <a class="btn" href="mailto:support@apptikar.com">Contact support</a>
+      </div>
+
+      <div class="links">
+        <a href="/privacy.html">Privacy Policy</a> ·
+        <a href="/terms.html">Terms of Use</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
